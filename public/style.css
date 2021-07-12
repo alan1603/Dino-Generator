@@ -1,0 +1,70 @@
+html{
+    font-size:100%;
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    background: center/ auto url(cameron-smith-WY-3rw4KHIQ-unsplash.jpg);
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 3rem;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    line-height: 1;
+}
+
+.generator{
+    padding: 1rem;
+    text-align: center;
+}
+
+#dinoImage{
+    max-width: 100%;
+    border-radius: 0 0 1rem 1rem;
+}
+
+#dinoName{
+    background: #ffff;
+    color: darkblue;
+    padding: 0.25rem;
+    border-radius: 1rem 1rem 0 0;
+
+}
+#dinoWrapper{
+    width: 80%;
+    max-width: 25rem;
+    display: block;
+    margin:auto;
+}
+@media(min-width: 37.5em){
+    h1{
+        font-size: 3rem;
+    }
+    #dinoWrapper{
+        width:50%;
+    }
+}
+button{
+    background: hsl(219, 79%, 66%);
+    border: none;
+    color: #ffff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: background-color 150ms ease-in-out;
+    cursor: pointer;
+    margin-bottom: 4rem;
+}
+
+button:hover{
+    background:hsl(219, 62%, 55%); ;
+}
